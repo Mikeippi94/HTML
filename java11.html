@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>Array.forEach() calls a function for each array element.</p>
+<script>
+	var state, tag;
+	state=["New Jersey","New York", "Iowa", "Utah", "Florida"];
+	document.write(states.lenght + "<br>");
+	
+	tag ="<ul>";
+	state.forEach(display);
+	tag+="</ul>";
+	document.write(tag);
+
+	function display(str){
+		tag+="<li>"+str+"</li>";	
+	}
+	
+</script>
+</body>
+</html>
